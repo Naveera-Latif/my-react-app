@@ -37,5 +37,5 @@ jobs:
     - name: installing surge
       run: npm install -g surge
     - name: deploying on surge
-      run: ./ build magenta-show.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: ./ build unhealthy-friends.surge.sh --token ${{secrets.SURGE_TOKEN}}
     
