@@ -4,11 +4,11 @@ import './App.css';
 function App() {
   return (
     <div>
-      <h1>Hello World fron naveera.thanks you </h1>
+      Hello World fron naveera.thanks you 
 
     </div>
-    <br/>
-    <h1>hi everyone</h1>
+    
+    
   );
 }
 
