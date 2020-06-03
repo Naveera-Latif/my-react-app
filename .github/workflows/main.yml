@@ -37,5 +37,5 @@ jobs:
     - name: installing surge
       run: npm install -g surge
     - name: deploying on surge
-      run: surge ./ build hira1.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build hira1.surge.sh --token ${{secrets.SURGE_TOKEN}}
     
